@@ -1,0 +1,61 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pyre/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Packaging and build output
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+
+# Editor and OS files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Generated media and pipeline output
+downloads/
+out/
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.wav
+*.mp3
+*.flac
+*.aac
+*.ogg
+*.jpg
+*.jpeg
+*.png
+
+# Model/checkpoint artifacts
+checkpoints/
+models/
+weights/
+*.ckpt
+*.pt
+*.pth
+*.safetensors
+*.onnx
